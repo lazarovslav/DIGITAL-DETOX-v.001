@@ -171,15 +171,14 @@ p {
 }
 
 .avatar {
-    width: 40%;
-
-    margin-right: 20px;
+    width: 100px;
+    height: auto;
 }
 
 .card {
     font-family: 'Poppins', sans-serif;
     border-radius: 20px;
-    width: 500px;
+    width: 400px;
     margin: 30px auto;
     padding: 20px;
     display: flex;
