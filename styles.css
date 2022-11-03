@@ -7,8 +7,6 @@
 
 .hero {
     overflow: hidden;
-    padding-top: 1px;
-    margin-top: -1px;
     width: 100%;
     height: 500px;
     background-image: url("images/montain-background.jpg");
@@ -17,11 +15,12 @@
 }
 
 .bottom {
+    overflow: hidden;
     text-align: center;
     padding-top: 1px;
     margin-top: -1px;
     width: 100%;
-    height: 200px;
+    height: 190px;
     background:#476863;
   }
   
