@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+    padding-top: 1px;
+    margin-top: -1px;
+    width: 100%;
+    height: 400px;
+    background-image: url("images/montain-background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 1px;
+    margin-top: -1px;
+    width: 100%;
+    height: 200px;
+    background:#476863;
+  }
+
+#logo-top {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    width: 100px;
+}
+
+#title-1 {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 10px auto;
+    width: 600;
+    text-shadow: 0 0 1px black;
+    font-size: 20px;
+}
+
+#title-2 {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 85px auto;
+    width: 600;
+    text-shadow: 0 0 1px black;
+    font-size: 35px;
+}
+
+#hint {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #476863;
+    margin: 100px auto 0px;
+    font-size: 25px;
+    font-weight: 300;
+    width: 450px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 1px white;
+}
+
+.underline-digital-detox {
+    border-bottom: 4px solid white;
+    border-radius: 0% 100% 7% 93% / 94% 16% 84% 6% ;
+}
+
+.holding-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #B0B19F;
+    flex-direction: row;
+}
+
+.internalcontainer1, .internalcontainer2, .internalcontainer3, .internalcontainer4, .internalcontainer5 {
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px ;
+}
+
+.veleka {
+    margin: 0 auto;
+    background-image: url("images/veleka.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.veleka:hover {
+    background-image: url("images/veleka.jpg");
+    opacity: 0.7;
+}
+
+.bylgari {
+    margin: 0 auto;
+    background-image: url("images/selo-bylgari.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.bylgari:hover {
+    background-image: url("images/selo-bylgari.jpg");
+    opacity: 0.7;
+}
+
+.brashlian {
+    margin: 0 auto;
+    background-image: url("images/brashlian.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.brashlian:hover {
+    background-image: url("images/brashlian.jpg");
+    opacity: 0.7;
+}
+
+.dokuzak {
+    margin: 0 auto;
+    background-image: url("images/dokuzak.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.dokuzak:hover {
+    background-image: url("images/dokuzak.jpg");
+    opacity: 0.7;
+}
+
+.mishkova {
+    margin: 0 auto;
+    background-image: url("images/mishkova-niva.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.mishkova:hover {
+    background-image: url("images/mishkova-niva.jpg");
+    opacity: 0.7;
+}
+
+h4 {
+    color: white;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar {
+    width: 40%;
+
+    margin-right: 20px;
+}
+
+.card {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background:white;
+}
+
+#h3-card {
+    margin: 10px auto;
+    color: #476863;
+    text-shadow: 0px 0px 1px white;
+
+}
+
+button {
+    border: 1px solid #476863;
+    border-radius: 20px;
+    background-color: white;
+    color:#476863;
+    padding: 10px 20px;
+    margin: 0px auto;
+    width: 150px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}

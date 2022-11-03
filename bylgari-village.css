@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url("images/montain-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero {
+    text-align: center;
+}
+
+#logo-img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+#title {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 10px auto auto;
+    width: 600;
+    text-shadow: 0 0 1px black;
+    font-size: 20px;
+}
+
+#title-2 {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 200px auto auto;
+    width: 600;
+    text-shadow: 0 0 1px black;
+    font-size: 60px;
+}
+
+#hint {
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    margin: 120px auto 50px auto;
+    width: 600;
+    text-shadow: 0 0 1px black;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+    border-radius: 0% 100% 7% 93% / 94% 16% 84% 6% ;
+}
